@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-title>Sobre</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding" fullscreen>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>{{ titulo }}</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p>{{ descricao }}</p>
+    </ion-card-content>
+  </ion-card>
+
+  <div class="ion-text-center">
+  <ion-button (click)="voltar()" expand="block" color="primary">
+    Voltar
+  </ion-button>
+</div>
+
